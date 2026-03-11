@@ -2,52 +2,44 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>World War II Revision Hub</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WW2 Study Hub</title>
 
 <style>
 
 body{
-font-family: Arial, Helvetica, sans-serif;
-background:#f4f6f8;
+font-family:Segoe UI;
 margin:0;
-line-height:1.6;
-color:#222;
+background:#eef2f7;
 }
 
 header{
-background:#1f2937;
+background:#111827;
 color:white;
 padding:30px;
 text-align:center;
 }
 
-header h1{
-margin:0;
-font-size:2.2rem;
-}
-
 nav{
-background:#374151;
-padding:10px;
+background:#1f2937;
+padding:12px;
 text-align:center;
 }
 
 nav a{
 color:white;
-margin:10px;
+margin:12px;
 text-decoration:none;
 font-weight:bold;
 }
 
 nav a:hover{
-text-decoration:underline;
+color:#60a5fa;
 }
 
 .container{
 max-width:1100px;
 margin:auto;
-padding:20px;
+padding:25px;
 }
 
 section{
@@ -55,19 +47,19 @@ background:white;
 padding:25px;
 margin-bottom:25px;
 border-radius:8px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2{
 border-bottom:3px solid #3b82f6;
-padding-bottom:8px;
+padding-bottom:6px;
 }
 
 details{
+background:#f3f4f6;
+padding:12px;
 margin-top:10px;
-padding:10px;
-background:#f1f5f9;
-border-radius:5px;
+border-radius:6px;
 }
 
 summary{
@@ -75,20 +67,24 @@ font-weight:bold;
 cursor:pointer;
 }
 
+.timeline li{
+margin-bottom:8px;
+}
+
 .quiz{
-margin-top:15px;
-padding:15px;
 background:#eef2ff;
+padding:15px;
+margin-top:15px;
 border-radius:6px;
 }
 
 button{
 margin-top:10px;
-padding:8px 15px;
-border:none;
+padding:8px 16px;
 background:#3b82f6;
 color:white;
-border-radius:5px;
+border:none;
+border-radius:4px;
 cursor:pointer;
 }
 
@@ -106,12 +102,10 @@ color:red;
 font-weight:bold;
 }
 
-footer{
-text-align:center;
-padding:20px;
-background:#1f2937;
-color:white;
-margin-top:30px;
+.score{
+font-size:18px;
+font-weight:bold;
+margin-top:10px;
 }
 
 </style>
@@ -121,232 +115,333 @@ margin-top:30px;
 
 <header>
 <h1>World War II Revision Hub</h1>
-<p>Study Notes + Practice Quiz</p>
+<p>Study Guide + Test Simulator</p>
 </header>
 
 <nav>
 <a href="#causes">Causes</a>
 <a href="#timeline">Timeline</a>
-<a href="#battles">Major Battles</a>
+<a href="#fronts">War Fronts</a>
 <a href="#holocaust">Holocaust</a>
-<a href="#australia">Australia</a>
 <a href="#end">End of War</a>
-<a href="#quiz">Quiz</a>
+<a href="#test">Testing Area</a>
 </nav>
 
 <div class="container">
 
 <section id="causes">
+
 <h2>Causes of World War II</h2>
 
 <details open>
 <summary>Treaty of Versailles</summary>
+
 <ul>
-<li>Signed in 1919 after WW1</li>
-<li>Germany forced to accept war guilt</li>
-<li>Germany lost land and colonies</li>
+<li>Signed in 1919 ending WW1</li>
+<li>Germany forced to accept full responsibility for the war</li>
+<li>Lost major territory including Alsace-Lorraine</li>
 <li>Military limited to 100,000 soldiers</li>
-<li>Germany had to pay massive reparations</li>
-<li>Created resentment and economic instability</li>
+<li>No tanks, submarines or air force allowed</li>
+<li>Required to pay massive reparations</li>
+<li>Led to anger, economic crisis, and desire for revenge</li>
 </ul>
+
 </details>
 
 <details>
-<summary>Rise of Dictators</summary>
+<summary>Rise of Dictatorships</summary>
+
 <ul>
-<li>Germany – Adolf Hitler (Nazi Party)</li>
-<li>Italy – Benito Mussolini (Fascist regime)</li>
-<li>Japan – Militarist government and Emperor worship</li>
-<li>Dictators promoted nationalism and expansion</li>
+<li>Economic instability after the Great Depression allowed extremist leaders to rise</li>
+<li>Germany – Adolf Hitler and the Nazi Party</li>
+<li>Italy – Benito Mussolini and Fascism</li>
+<li>Japan – militarist government controlling the emperor</li>
+<li>These regimes believed in expansion and military power</li>
 </ul>
+
 </details>
 
 <details>
-<summary>Expansionism</summary>
+<summary>Failure of the League of Nations</summary>
+
 <ul>
-<li>Germany remilitarised the Rhineland (1936)</li>
-<li>Germany annexed Austria (1938)</li>
-<li>Germany demanded Sudetenland from Czechoslovakia</li>
+<li>International organisation meant to maintain peace</li>
+<li>Had no army to enforce decisions</li>
 <li>Japan invaded Manchuria (1931)</li>
 <li>Italy invaded Ethiopia (1935)</li>
+<li>Germany rearmed and remilitarised Rhineland</li>
+<li>The League failed to stop these actions</li>
 </ul>
+
 </details>
 
 <details>
 <summary>Appeasement</summary>
+
 <ul>
-<li>Britain and France tried to avoid war</li>
-<li>Munich Agreement allowed Hitler to take Sudetenland</li>
-<li>Believed satisfying demands would stop further aggression</li>
-<li>Instead it encouraged Hitler to expand further</li>
+<li>Britain and France tried to avoid another war</li>
+<li>Allowed Germany to take Sudetenland in 1938</li>
+<li>Believed Hitler would stop after limited expansion</li>
+<li>Instead it encouraged further aggression</li>
 </ul>
+
 </details>
 
 </section>
 
 <section id="timeline">
-<h2>Key Timeline of WWII</h2>
 
-<ul>
-<li><b>1939</b> – Germany invades Poland</li>
-<li><b>1940</b> – Germany conquers Denmark, Norway, Belgium, Netherlands, France</li>
+<h2>Detailed WWII Timeline</h2>
+
+<ul class="timeline">
+
+<li><b>1931</b> – Japan invades Manchuria</li>
+
+<li><b>1935</b> – Italy invades Ethiopia</li>
+
+<li><b>1938</b> – Germany annexes Austria (Anschluss)</li>
+
+<li><b>1938</b> – Munich Agreement gives Germany Sudetenland</li>
+
+<li><b>1 Sept 1939</b> – Germany invades Poland</li>
+
+<li><b>3 Sept 1939</b> – Britain and France declare war</li>
+
+<li><b>1940</b> – Germany conquers Denmark, Norway, Belgium and France</li>
+
+<li><b>1940</b> – Dunkirk evacuation</li>
+
 <li><b>1940</b> – Battle of Britain</li>
-<li><b>1941</b> – Germany invades Soviet Union</li>
-<li><b>1941</b> – Japan attacks Pearl Harbor</li>
-<li><b>1942</b> – Battle of Midway</li>
-<li><b>1942–43</b> – Battle of Stalingrad</li>
-<li><b>1944</b> – D-Day Allied invasion of France</li>
-<li><b>1945</b> – Germany surrenders</li>
-<li><b>1945</b> – Atomic bombs dropped on Japan</li>
+
+<li><b>1941</b> – Germany launches Operation Barbarossa (invades USSR)</li>
+
+<li><b>7 Dec 1941</b> – Japan attacks Pearl Harbor</li>
+
+<li><b>1942</b> – Battle of Midway shifts Pacific war</li>
+
+<li><b>1942–43</b> – Battle of Stalingrad turning point</li>
+
+<li><b>1943</b> – Allies invade Italy</li>
+
+<li><b>6 June 1944</b> – D-Day invasion of Normandy</li>
+
+<li><b>1944</b> – Battle of the Bulge</li>
+
+<li><b>April 1945</b> – Soviet forces capture Berlin</li>
+
+<li><b>May 1945</b> – Germany surrenders (VE Day)</li>
+
+<li><b>Aug 1945</b> – Atomic bombs dropped on Hiroshima and Nagasaki</li>
+
+<li><b>Sept 1945</b> – Japan surrenders (VJ Day)</li>
+
 </ul>
 
 </section>
 
-<section id="battles">
-<h2>Major Battles</h2>
+<section id="fronts">
 
-<details>
-<summary>Battle of Britain (1940)</summary>
+<h2>Major War Fronts</h2>
+
+<details open>
+<summary>European Western Front</summary>
+
 <ul>
-<li>Germany attempted to defeat Britain with air attacks</li>
-<li>Luftwaffe bombed cities and airfields</li>
-<li>Royal Air Force defended the country</li>
-<li>First major defeat for Hitler</li>
+<li>Germany used Blitzkrieg tactics to rapidly invade Western Europe</li>
+<li>France fell in 1940</li>
+<li>Britain remained unconquered after Battle of Britain</li>
+<li>Allies returned to Europe during D-Day invasion in 1944</li>
+<li>Western Allies pushed toward Germany from France</li>
 </ul>
+
 </details>
 
 <details>
-<summary>Battle of Stalingrad (1942–1943)</summary>
+<summary>Eastern Front</summary>
+
 <ul>
-<li>Germany attempted to capture Soviet industrial city</li>
-<li>Urban warfare caused massive casualties</li>
-<li>Soviets surrounded German army</li>
-<li>Turning point on Eastern Front</li>
+<li>Germany invaded the Soviet Union in 1941</li>
+<li>Largest and deadliest front of the war</li>
+<li>Major battles:</li>
+<ul>
+<li>Stalingrad</li>
+<li>Kursk</li>
+<li>Leningrad siege</li>
 </ul>
+<li>Soviets eventually pushed Germany back to Berlin</li>
+</ul>
+
 </details>
 
 <details>
-<summary>D-Day (1944)</summary>
+<summary>Pacific Front</summary>
+
 <ul>
-<li>Allied invasion of Normandy, France</li>
-<li>Largest amphibious invasion in history</li>
-<li>Marked beginning of liberation of Western Europe</li>
+<li>War between Japan and Allied powers</li>
+<li>Japan rapidly conquered Southeast Asia</li>
+<li>US adopted island hopping strategy</li>
+<li>Major battles:</li>
+<ul>
+<li>Midway</li>
+<li>Guadalcanal</li>
+<li>Iwo Jima</li>
+<li>Okinawa</li>
 </ul>
+</ul>
+
+</details>
+
+<details>
+<summary>North African Front</summary>
+
+<ul>
+<li>Fought between Axis and Allied forces</li>
+<li>Germany sent Afrika Korps led by Erwin Rommel</li>
+<li>Major battle: El Alamein</li>
+<li>Allies eventually pushed Axis forces out of Africa</li>
+</ul>
+
 </details>
 
 </section>
 
 <section id="holocaust">
+
 <h2>The Holocaust</h2>
 
 <ul>
-<li>Nazi policy to exterminate Jews and other groups</li>
-<li>Approximately 6 million Jews killed</li>
-<li>Victims sent to concentration camps and death camps</li>
+
+<li>Nazi genocide targeting Jews and other minorities</li>
+
+<li>Approximately 6 million Jews murdered</li>
+
+<li>Victims sent to concentration camps and extermination camps</li>
+
 <li>Major camps included Auschwitz, Treblinka, and Sobibor</li>
-<li>Other victims included Roma, disabled people, political prisoners and LGBTQ people</li>
-</ul>
 
-</section>
+<li>Other victims included Roma people, disabled people, political prisoners and LGBTQ individuals</li>
 
-<section id="australia">
-<h2>Australia in WWII</h2>
-
-<ul>
-<li>Australia joined the war in 1939 after Britain declared war</li>
-<li>Australian troops fought in North Africa and Europe</li>
-<li>Important campaign: Kokoda Track in Papua New Guinea</li>
-<li>Japan bombed Darwin in 1942</li>
-<li>War increased industrial production and changed society</li>
 </ul>
 
 </section>
 
 <section id="end">
-<h2>End of World War II</h2>
+
+<h2>End of the War & Consequences</h2>
 
 <ul>
-<li>1945 – Allied forces invaded Germany</li>
-<li>Adolf Hitler committed suicide</li>
-<li>Germany surrendered May 1945 (VE Day)</li>
-<li>USA dropped atomic bombs on Hiroshima and Nagasaki</li>
-<li>Japan surrendered September 1945 (VJ Day)</li>
-</ul>
 
-<h3>Consequences</h3>
+<li>Germany collapsed after Allied and Soviet invasion</li>
 
-<ul>
-<li>70–85 million deaths worldwide</li>
-<li>Europe devastated economically</li>
+<li>Hitler committed suicide April 1945</li>
+
+<li>Germany surrendered May 1945</li>
+
+<li>Atomic bombs dropped August 1945</li>
+
+<li>Japan surrendered September 1945</li>
+
+<li>Estimated 70–85 million deaths worldwide</li>
+
 <li>United Nations formed</li>
+
 <li>Cold War began between USA and USSR</li>
+
 </ul>
 
 </section>
 
-<section id="quiz">
-<h2>Quick Test Yourself</h2>
+<section id="test">
+
+<h2>Comprehensive Testing Area</h2>
 
 <div class="quiz">
 
-<p><b>1. What event started World War II?</b></p>
+<p><b>1. Which event directly started WWII?</b></p>
 
-<label><input type="radio" name="q1"> Attack on Pearl Harbor</label><br>
+<label><input type="radio" name="q1"> Pearl Harbor</label><br>
 <label><input type="radio" name="q1"> Germany invading Poland</label><br>
-<label><input type="radio" name="q1"> Battle of Britain</label><br>
+<label><input type="radio" name="q1"> Munich Agreement</label>
 
-<button onclick="checkQ1()">Check Answer</button>
-<p id="q1result"></p>
+<button onclick="check1()">Submit</button>
+
+<p id="r1"></p>
 
 </div>
 
 <div class="quiz">
 
-<p><b>2. Which battle was a major turning point against Germany?</b></p>
+<p><b>2. Which battle was the turning point on the Eastern Front?</b></p>
 
-<label><input type="radio" name="q2"> Stalingrad</label><br>
 <label><input type="radio" name="q2"> Dunkirk</label><br>
-<label><input type="radio" name="q2"> Pearl Harbor</label><br>
+<label><input type="radio" name="q2"> Stalingrad</label><br>
+<label><input type="radio" name="q2"> Normandy</label>
 
-<button onclick="checkQ2()">Check Answer</button>
-<p id="q2result"></p>
+<button onclick="check2()">Submit</button>
+
+<p id="r2"></p>
 
 </div>
+
+<div class="quiz">
+
+<p><b>3. What strategy did the US use in the Pacific?</b></p>
+
+<label><input type="radio" name="q3"> Blitzkrieg</label><br>
+<label><input type="radio" name="q3"> Island hopping</label><br>
+<label><input type="radio" name="q3"> Trench warfare</label>
+
+<button onclick="check3()">Submit</button>
+
+<p id="r3"></p>
+
+</div>
+
+<div class="score" id="score"></div>
 
 </section>
 
 </div>
-
-<footer>
-World War II Study Page | Built for Revision Practice
-</footer>
 
 <script>
 
-function checkQ1(){
+let score=0;
 
-let options=document.getElementsByName("q1");
-
-if(options[1].checked){
-document.getElementById("q1result").innerHTML="<span class='correct'>Correct!</span>";
-}
-else{
-document.getElementById("q1result").innerHTML="<span class='incorrect'>Incorrect. The war began when Germany invaded Poland in 1939.</span>";
+function updateScore(){
+document.getElementById("score").innerHTML="Score: "+score+" / 3";
 }
 
+function check1(){
+let q=document.getElementsByName("q1");
+if(q[1].checked){
+document.getElementById("r1").innerHTML="<span class='correct'>Correct</span>";
+score++;
+}else{
+document.getElementById("r1").innerHTML="<span class='incorrect'>Incorrect</span>";
+}
+updateScore();
 }
 
-function checkQ2(){
-
-let options=document.getElementsByName("q2");
-
-if(options[0].checked){
-document.getElementById("q2result").innerHTML="<span class='correct'>Correct!</span>";
+function check2(){
+let q=document.getElementsByName("q2");
+if(q[1].checked){
+document.getElementById("r2").innerHTML="<span class='correct'>Correct</span>";
+score++;
+}else{
+document.getElementById("r2").innerHTML="<span class='incorrect'>Incorrect</span>";
 }
-else{
-document.getElementById("q2result").innerHTML="<span class='incorrect'>Incorrect. The Battle of Stalingrad was the turning point.</span>";
+updateScore();
 }
 
+function check3(){
+let q=document.getElementsByName("q3");
+if(q[1].checked){
+document.getElementById("r3").innerHTML="<span class='correct'>Correct</span>";
+score++;
+}else{
+document.getElementById("r3").innerHTML="<span class='incorrect'>Incorrect</span>";
+}
+updateScore();
 }
 
 </script>
