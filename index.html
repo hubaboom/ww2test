@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>WW2 Revision Hub</title>
+
+<title>World War II Study Hub</title>
 
 <style>
 
 body{
-font-family:Arial;
-background:#eef2f7;
+font-family:Segoe UI;
 margin:0;
+background:#f4f7fb;
+color:#222;
 }
 
 header{
-background:#111827;
+background:linear-gradient(135deg,#0f172a,#1e293b);
 color:white;
-padding:30px;
+padding:40px;
 text-align:center;
+}
+
+nav{
+background:#1e293b;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#60a5fa;
 }
 
 .container{
@@ -25,17 +43,21 @@ margin:auto;
 padding:30px;
 }
 
-section{
+.card{
 background:white;
 padding:25px;
-margin-bottom:20px;
-border-radius:8px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
 }
 
 h2{
-border-bottom:3px solid #3b82f6;
-padding-bottom:6px;
+border-left:6px solid #3b82f6;
+padding-left:10px;
+}
+
+.timeline li{
+margin-bottom:10px;
 }
 
 button{
@@ -44,7 +66,7 @@ font-size:16px;
 background:#3b82f6;
 border:none;
 color:white;
-border-radius:5px;
+border-radius:6px;
 cursor:pointer;
 }
 
@@ -53,73 +75,140 @@ background:#2563eb;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>World War II Study Hub</h1>
-<p>Revision Guide</p>
+
+<h1>World War II Revision Hub</h1>
+<p>Complete Study Guide for Exams</p>
+
 </header>
+
+<nav>
+
+<a href="#causes">Causes</a>
+<a href="#fronts">War Fronts</a>
+<a href="#timeline">Timeline</a>
+<a href="#holocaust">Holocaust</a>
+<a href="#consequences">Consequences</a>
+
+</nav>
 
 <div class="container">
 
-<section>
+<div class="card" id="causes">
 
-<h2>Causes of WWII</h2>
+<h2>Causes of World War II</h2>
+
+<p>World War II began due to a combination of political, economic and ideological factors.</p>
 
 <ul>
-<li>Treaty of Versailles punished Germany after WWI</li>
-<li>Economic crisis and the Great Depression</li>
-<li>Rise of dictatorships</li>
-<li>Failure of the League of Nations</li>
-<li>Appeasement policies by Britain and France</li>
+
+<li><b>Treaty of Versailles (1919)</b> punished Germany severely after WW1.</li>
+
+<li><b>Economic instability</b> during the Great Depression caused widespread poverty.</li>
+
+<li><b>Rise of dictators</b> including Hitler, Mussolini and militarist leaders in Japan.</li>
+
+<li><b>Expansionism</b> where countries tried to gain land and resources.</li>
+
+<li><b>Appeasement</b> allowed Hitler to take territory without resistance.</li>
+
+<li><b>Failure of the League of Nations</b> to enforce peace.</li>
 
 </ul>
 
-</section>
+</div>
 
-<section>
+<div class="card" id="fronts">
 
 <h2>Major War Fronts</h2>
 
-<ul>
+<h3>Western Front</h3>
 
-<li><b>Western Front</b> – Germany vs Britain, France, and later USA</li>
-<li><b>Eastern Front</b> – Germany vs Soviet Union</li>
-<li><b>Pacific Front</b> – Japan vs USA and Allies</li>
-<li><b>North African Front</b> – Axis vs Allied forces</li>
+<p>Germany invaded Western Europe using blitzkrieg tactics. France fell in 1940 but Britain resisted. The Allies later returned to Europe with the D-Day invasion in 1944.</p>
 
-</ul>
+<h3>Eastern Front</h3>
 
-</section>
+<p>The Eastern Front between Germany and the Soviet Union was the largest and deadliest front of the war. Major battles included Stalingrad, Kursk and the Siege of Leningrad.</p>
 
-<section>
+<h3>Pacific Front</h3>
 
-<h2>Timeline Highlights</h2>
+<p>The Pacific War involved Japan fighting against the United States and Allied powers. Japan initially conquered many territories but was eventually pushed back through island hopping campaigns.</p>
 
-<ul>
+<h3>North African Front</h3>
 
+<p>Axis forces led by General Erwin Rommel fought Allied forces in desert warfare across North Africa. The turning point was the Battle of El Alamein.</p>
+
+</div>
+
+<div class="card" id="timeline">
+
+<h2>WWII Timeline</h2>
+
+<ul class="timeline">
+
+<li>1931 – Japan invades Manchuria</li>
+<li>1935 – Italy invades Ethiopia</li>
+<li>1938 – Germany annexes Austria</li>
+<li>1938 – Munich Agreement</li>
 <li>1939 – Germany invades Poland</li>
+<li>1940 – Fall of France</li>
 <li>1940 – Battle of Britain</li>
-<li>1941 – Pearl Harbor</li>
-<li>1942–43 – Stalingrad</li>
+<li>1941 – Operation Barbarossa</li>
+<li>1941 – Attack on Pearl Harbor</li>
+<li>1942 – Battle of Midway</li>
+<li>1942–43 – Battle of Stalingrad</li>
+<li>1943 – Allies invade Italy</li>
 <li>1944 – D-Day</li>
-<li>1945 – Germany and Japan surrender</li>
+<li>1944 – Battle of the Bulge</li>
+<li>1945 – Germany surrenders</li>
+<li>1945 – Atomic bombs dropped</li>
 
 </ul>
 
-</section>
+</div>
 
-<section style="text-align:center">
+<div class="card" id="holocaust">
 
-<h2>Ready to Test Yourself?</h2>
+<h2>The Holocaust</h2>
+
+<p>The Holocaust was the systematic genocide carried out by Nazi Germany. Approximately six million Jews were murdered, along with millions of other victims including Roma people, disabled individuals and political prisoners.</p>
+
+<p>Victims were sent to concentration camps and extermination camps such as Auschwitz and Treblinka.</p>
+
+</div>
+
+<div class="card" id="consequences">
+
+<h2>Consequences of WWII</h2>
+
+<ul>
+
+<li>Over 70 million deaths worldwide</li>
+<li>Creation of the United Nations</li>
+<li>Division of Germany into East and West</li>
+<li>Start of the Cold War</li>
+<li>Major technological and political changes</li>
+
+</ul>
+
+</div>
+
+<div class="card" style="text-align:center">
+
+<h2>Test Your Knowledge</h2>
 
 <a href="quiz.html">
-<button>Start the WW2 Test</button>
+
+<button>Start the WW2 Quiz</button>
+
 </a>
 
-</section>
+</div>
 
 </div>
 
